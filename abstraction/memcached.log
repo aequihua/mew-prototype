@@ -1,0 +1,328 @@
+2012-04-20 18:59:10 -0500 [memcached] Event type INFO, status message: Provided service list : 0
+2012-04-20 19:02:11 -0500 [memcached]Capacity recording is 0 transactions, status message: Elasticity manager: Unable to increase to 4 servers due to limit of requests policy = 1
+2012-04-20 19:02:11 -0500 [memcached_1] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_1
+2012-04-20 19:02:11 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:03:11 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Unable to increase to 3 servers due to limit of requests policy = 1
+2012-04-20 19:03:41 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Unable to increase to 5 servers due to limit of requests policy = 1
+2012-04-20 19:05:18 -0500 [memcached] Event type INFO, status message: Provided service list : 1
+2012-04-20 19:05:53 -0500 [memcached] Event type INFO, status message: Provided service list : 1
+2012-04-20 19:06:26 -0500 [memcached_2] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_2
+2012-04-20 19:06:26 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:07:26 -0500 [memcached_3] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_3
+2012-04-20 19:07:26 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:07:26 -0500 [memcached]Capacity recording is 2 transactions, status message: Elasticity manager: Capacity now is 2 servers
+2012-04-20 19:07:56 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:07:56 -0500 [memcached]Capacity recording is 2 transactions, status message: Elasticity manager: Capacity now is 2 servers
+2012-04-20 19:08:26 -0500 [memcached_1] Event type INFO, status message: Service cancelled successfully : memcached_1
+2012-04-20 19:08:26 -0500 [memcached_2] Event type INFO, status message: Service cancelled successfully : memcached_2
+2012-04-20 19:27:23 -0500 [memcached] Event type INFO, status message: Provided service list : 0
+2012-04-20 19:27:23 -0500 [memcached_1] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_1
+2012-04-20 19:27:23 -0500 [memcached_2] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_2
+2012-04-20 19:27:23 -0500 [memcached_3] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_3
+2012-04-20 19:27:23 -0500 [memcached_4] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_4
+2012-04-20 19:27:23 -0500 [memcached_5] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_5
+2012-04-20 19:27:23 -0500 [memcached_6] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_6
+2012-04-20 19:27:23 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:27:23 -0500 [memcached]Capacity recording is 6 transactions, status message: Elasticity manager: Capacity now is 6 servers
+2012-04-20 19:27:59 -0500 [memcached] Event type INFO, status message: Provided service list : 6
+2012-04-20 19:27:59 -0500 [memcached_1] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_1
+2012-04-20 19:27:59 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:28:30 -0500 [memcached_8] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_8
+2012-04-20 19:28:30 -0500 [memcached_9] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_9
+2012-04-20 19:28:30 -0500 [memcached_10] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_10
+2012-04-20 19:28:30 -0500 [memcached_11] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_11
+2012-04-20 19:28:30 -0500 [memcached_12] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_12
+2012-04-20 19:28:30 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:28:30 -0500 [memcached]Capacity recording is 6 transactions, status message: Elasticity manager: Capacity now is 6 servers
+2012-04-20 19:29:00 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:29:00 -0500 [memcached]Capacity recording is 6 transactions, status message: Elasticity manager: Capacity now is 6 servers
+2012-04-20 19:29:30 -0500 [memcached_1] Event type INFO, status message: Service cancelled successfully : memcached_1
+2012-04-20 19:29:30 -0500 [memcached_2] Event type INFO, status message: Service cancelled successfully : memcached_2
+2012-04-20 19:29:30 -0500 [memcached_3] Event type INFO, status message: Service cancelled successfully : memcached_3
+2012-04-20 19:29:30 -0500 [memcached]Capacity recording is 3 transactions, status message: Elasticity manager: Capacity now is 3 servers
+2012-04-20 19:30:00 -0500 [memcached_13] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_13
+2012-04-20 19:30:00 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:30:00 -0500 [memcached]Capacity recording is 4 transactions, status message: Elasticity manager: Capacity now is 4 servers
+2012-04-20 19:30:30 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:30:30 -0500 [memcached]Capacity recording is 4 transactions, status message: Elasticity manager: Capacity now is 4 servers
+2012-04-20 19:31:00 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:31:00 -0500 [memcached]Capacity recording is 4 transactions, status message: Elasticity manager: Capacity now is 4 servers
+2012-04-20 19:31:30 -0500 [memcached_4] Event type INFO, status message: Service cancelled successfully : memcached_4
+2012-04-20 19:31:30 -0500 [memcached_5] Event type INFO, status message: Service cancelled successfully : memcached_5
+2012-04-20 19:31:30 -0500 [memcached]Capacity recording is 2 transactions, status message: Elasticity manager: Capacity now is 2 servers
+2012-04-20 19:32:30 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:32:30 -0500 [memcached]Capacity recording is 2 transactions, status message: Elasticity manager: Capacity now is 2 servers
+2012-04-20 19:33:00 -0500 [memcached_6] Event type INFO, status message: Service cancelled successfully : memcached_6
+2012-04-20 19:33:00 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:33:31 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:33:31 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:34:01 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:34:01 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:34:31 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:34:31 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:35:01 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:35:01 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:35:31 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:35:31 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:36:01 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:36:01 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:37:02 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:37:02 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:37:32 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:37:32 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:38:02 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:38:02 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:38:32 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:38:32 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:40:02 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:40:02 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:40:32 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:40:32 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:41:02 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:41:02 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:41:32 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:41:32 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:42:02 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:42:02 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:42:32 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:42:32 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:43:02 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:43:02 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:43:33 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:43:33 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:44:03 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:44:03 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:44:33 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:44:33 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:45:03 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:45:03 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:45:33 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:45:33 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:46:03 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:46:03 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:46:33 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:46:33 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:47:03 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:47:03 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:47:33 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:47:33 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:48:03 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:48:03 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:48:33 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:48:33 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:49:04 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:49:04 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:49:34 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:49:34 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:50:04 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:50:04 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:51:34 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:51:34 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:52:04 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:52:04 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:52:34 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:52:34 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:53:04 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:53:04 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:54:04 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:54:04 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:54:34 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:54:34 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:55:05 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:55:05 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:55:35 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:55:35 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:56:05 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:56:05 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:56:35 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:56:35 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:57:05 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:57:05 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:58:05 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:58:05 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 19:58:35 -0500 [memcached_8] Event type INFO, status message: Service cancelled successfully : memcached_8
+2012-04-20 19:58:35 -0500 [memcached]Capacity recording is 0 transactions, status message: Elasticity manager: Capacity now is 0 servers
+2012-04-20 19:59:05 -0500 [memcached_14] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_14
+2012-04-20 19:59:05 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 19:59:05 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:00:05 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:00:05 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:00:35 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:00:36 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:01:06 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:01:06 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:01:36 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:01:36 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:02:06 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:02:06 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:02:36 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:02:36 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:03:36 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:03:36 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:04:06 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:04:06 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:04:36 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:04:36 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:05:06 -0500 [memcached_9] Event type INFO, status message: Service cancelled successfully : memcached_9
+2012-04-20 20:05:06 -0500 [memcached]Capacity recording is 0 transactions, status message: Elasticity manager: Capacity now is 0 servers
+2012-04-20 20:06:06 -0500 [memcached_15] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_15
+2012-04-20 20:06:06 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:06:06 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:07:10 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:07:10 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:07:40 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:07:40 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:08:10 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:08:11 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:08:41 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:08:41 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:09:11 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:09:11 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:09:41 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:09:41 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:10:11 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:10:11 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:10:41 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:10:41 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:11:11 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:11:11 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:11:41 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:11:41 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:12:11 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:12:11 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:12:41 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:12:41 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:13:11 -0500 [memcached_10] Event type INFO, status message: Service cancelled successfully : memcached_10
+2012-04-20 20:13:11 -0500 [memcached]Capacity recording is 0 transactions, status message: Elasticity manager: Capacity now is 0 servers
+2012-04-20 20:13:41 -0500 [memcached_16] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_16
+2012-04-20 20:13:41 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:14:11 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:14:11 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:14:41 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:14:41 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:15:11 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:15:11 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:15:42 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:15:42 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:16:12 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:16:12 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 20:17:12 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-20 20:17:12 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 22:16:39 -0500 [memcached] Event type INFO, status message: Provided service list : 0
+2012-04-20 22:16:39 -0500 [memcached_1] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_1
+2012-04-20 22:16:39 -0500 [memcached_2] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_2
+2012-04-20 22:16:39 -0500 [memcached]Capacity recording is 2 transactions, status message: Elasticity manager: Capacity now is 2 servers
+2012-04-20 22:17:37 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-20 22:17:37 -0500 [memcached_1] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_1
+2012-04-20 22:17:37 -0500 [memcached_4] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_4
+2012-04-20 22:17:37 -0500 [memcached]Capacity recording is 2 transactions, status message: Elasticity manager: Capacity now is 2 servers
+2012-04-20 22:17:59 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-20 22:17:59 -0500 [memcached_1] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_1
+2012-04-20 22:17:59 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 22:18:22 -0500 [memcached] Event type INFO, status message: Provided service list : 1
+2012-04-20 22:18:23 -0500 [memcached_1] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_1
+2012-04-20 22:18:23 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 22:19:15 -0500 [memcached] Event type INFO, status message: Provided service list : 1
+2012-04-20 22:19:15 -0500 [memcached_1] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_1
+2012-04-20 22:19:15 -0500 [memcached_8] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_8
+2012-04-20 22:19:15 -0500 [memcached]Capacity recording is 2 transactions, status message: Elasticity manager: Capacity now is 2 servers
+2012-04-20 22:19:39 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-20 22:19:39 -0500 [memcached_1] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_1
+2012-04-20 22:19:39 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-20 22:20:01 -0500 [memcached] Event type INFO, status message: Provided service list : 1
+2012-04-20 22:20:01 -0500 [memcached_1] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_1
+2012-04-20 22:20:01 -0500 [memcached_11] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_11
+2012-04-20 22:20:01 -0500 [memcached_12] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_12
+2012-04-20 22:20:01 -0500 [memcached_13] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_13
+2012-04-20 22:20:01 -0500 [memcached_14] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_14
+2012-04-20 22:20:01 -0500 [memcached_15] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_15
+2012-04-20 22:20:01 -0500 [memcached]Capacity recording is 6 transactions, status message: Elasticity manager: Capacity now is 6 servers
+2012-04-21 12:53:51 -0500 [memcached] Event type INFO, status message: Provided service list : 6
+2012-04-21 13:02:57 -0500 [memcached] Event type INFO, status message: Provided service list : 6
+2012-04-21 13:03:47 -0500 [memcached] Event type INFO, status message: Provided service list : 6
+2012-04-21 13:04:13 -0500 [memcached] Event type INFO, status message: Provided service list : 6
+2012-04-21 13:13:34 -0500 [memcached] Event type INFO, status message: Provided service list : 6
+2012-04-21 13:13:35 -0500 [memcached_1] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_1
+2012-04-21 13:13:35 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-21 13:36:12 -0500 [memcached] Event type INFO, status message: Provided service list : 1
+2012-04-21 13:36:12 -0500 [memcached_1] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_1
+2012-04-21 13:36:12 -0500 [memcached_18] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_18
+2012-04-21 13:36:12 -0500 [memcached_19] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_19
+2012-04-21 13:36:12 -0500 [memcached_20] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_20
+2012-04-21 13:36:13 -0500 [memcached_21] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_21
+2012-04-21 13:36:13 -0500 [memcached]Capacity recording is 5 transactions, status message: Elasticity manager: Capacity now is 5 servers
+2012-04-21 13:39:06 -0500 [memcached_1] Event type INFO, status message: Service cancelled successfully : memcached_1
+2012-04-21 13:39:06 -0500 [memcached]Capacity recording is 4 transactions, status message: Elasticity manager: Capacity now is 4 servers
+2012-04-21 13:51:13 -0500 [memcached_1] Event type INFO, status message: Service cancelled successfully : memcached_1
+2012-04-21 13:51:13 -0500 [memcached]Capacity recording is 3 transactions, status message: Elasticity manager: Capacity now is 3 servers
+2012-04-21 14:03:26 -0500 [memcached] Event type INFO, status message: Provided service list : 4
+2012-04-21 14:04:34 -0500 [memcached] Event type INFO, status message: Provided service list : 4
+2012-04-21 14:05:22 -0500 [memcached_18] Event type INFO, status message: Service cancelled successfully : memcached_18
+2012-04-21 14:05:22 -0500 [memcached]Capacity recording is 2 transactions, status message: Elasticity manager: Capacity now is 2 servers
+2012-04-21 14:06:05 -0500 [memcached] Event type INFO, status message: Provided service list : 3
+2012-04-21 14:07:08 -0500 [memcached] Event type INFO, status message: Provided service list : 3
+2012-04-21 15:21:17 -0500 [memcached] Event type INFO, status message: Provided service list : 3
+2012-04-21 15:24:02 -0500 [memcached] Event type INFO, status message: Provided service list : 3
+2012-04-21 15:26:37 -0500 [memcached] Event type INFO, status message: Provided service list : 3
+2012-04-21 15:26:43 -0500 [memcached] Event type INFO, status message: Provided service list : 3
+2012-04-21 15:32:00 -0500 [memcached] Event type INFO, status message: Provided service list : 3
+2012-04-21 15:34:33 -0500 [memcached] Event type INFO, status message: Provided service list : 3
+2012-04-21 15:35:02 -0500 [memcached] Event type INFO, status message: Provided service list : 3
+2012-04-21 15:36:02 -0500 [memcached] Event type INFO, status message: Provided service list : 3
+2012-04-21 15:36:02 -0500 [memcached_1] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_1
+2012-04-21 15:36:02 -0500 [memcached_23] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_23
+2012-04-21 15:36:02 -0500 [memcached_24] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_24
+2012-04-21 15:36:02 -0500 [memcached_25] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_25
+2012-04-21 15:36:02 -0500 [memcached_26] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_26
+2012-04-21 15:36:02 -0500 [memcached_27] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_27
+2012-04-21 15:36:02 -0500 [memcached]Capacity recording is 6 transactions, status message: Elasticity manager: Capacity now is 6 servers
+2012-04-21 15:40:08 -0500 [memcached_19] Event type INFO, status message: Service cancelled successfully : memcached_19
+2012-04-21 15:40:08 -0500 [memcached]Capacity recording is 5 transactions, status message: Elasticity manager: Capacity now is 5 servers
+2012-04-21 15:53:27 -0500 [memcached_20] Event type INFO, status message: Service cancelled successfully : memcached_20
+2012-04-21 15:53:27 -0500 [memcached]Capacity recording is 4 transactions, status message: Elasticity manager: Capacity now is 4 servers
+2012-04-21 18:40:11 -0500 [memcached] Event type INFO, status message: Provided service list : 0
+2012-04-21 18:40:11 -0500 [memcached_1] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_1
+2012-04-21 18:40:11 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-21 18:43:27 -0500 [memcached] Event type INFO, status message: Provided service list : 1
+2012-04-21 18:43:27 -0500 [memcached_1] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_1
+2012-04-21 18:43:27 -0500 [memcached_3] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_3
+2012-04-21 18:43:28 -0500 [memcached_4] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_4
+2012-04-21 18:43:28 -0500 [memcached_5] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_5
+2012-04-21 18:43:28 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-21 18:43:28 -0500 [memcached]Capacity recording is 4 transactions, status message: Elasticity manager: Capacity now is 4 servers
+2012-04-21 18:45:49 -0500 [memcached] Event type INFO, status message: Provided service list : 0
+2012-04-21 18:45:49 -0500 [memcached_1] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_1
+2012-04-21 18:45:49 -0500 [memcached]Capacity recording is 1 transactions, status message: Elasticity manager: Capacity now is 1 servers
+2012-04-21 18:45:59 -0500 [memcached_2] Event type INFO, status message: Service contracted successfully : memcached physname=memcached_2
+2012-04-21 18:45:59 -0500 [memcached] Event type INFO, status message: No supplier found to provide : memcached
+2012-04-21 18:45:59 -0500 [memcached]Capacity recording is 2 transactions, status message: Elasticity manager: Capacity now is 2 servers
+2012-04-21 21:03:16 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:03:16 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:03:16 -0500 [memcached] Demand recording is 1 requests of 20 bytes in average, status message: Multitenancy manager: Obtained physical service for Llave2 as physserver = memcached_1
+2012-04-21 21:03:16 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:03:16 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:03:16 -0500 [memcached] Demand recording is 1 requests of 10 bytes in average, status message: Multitenancy manager: Obtained physical service for Llave2 as physserver = memcached_1
+2012-04-21 21:04:16 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:04:16 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:04:16 -0500 [memcached] Demand recording is 1 requests of 20 bytes in average, status message: Multitenancy manager: Obtained physical service for Llave2 as physserver = memcached_1
+2012-04-21 21:04:16 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:04:17 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:04:17 -0500 [memcached] Demand recording is 1 requests of 10 bytes in average, status message: Multitenancy manager: Obtained physical service for Llave2 as physserver = memcached_1
+2012-04-21 21:34:22 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:34:32 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:35:01 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:35:54 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:37:34 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:42:09 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:43:51 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:43:51 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:43:51 -0500 [memcached] Demand recording is 1 requests of 18 bytes in average, status message: Multitenancy manager: Obtained physical service for pelos as physserver = memcached_1
+2012-04-21 21:43:58 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:43:58 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:43:58 -0500 [memcached] Demand recording is 1 requests of 9 bytes in average, status message: Multitenancy manager: Obtained physical service for pelos as physserver = memcached_1
+2012-04-21 21:52:38 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:52:38 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:52:38 -0500 [memcached] Demand recording is 1 requests of 18 bytes in average, status message: Multitenancy manager: Obtained physical service for Llave as physserver = memcached_1
+2012-04-21 21:52:38 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:52:38 -0500 [memcached] Event type INFO, status message: Provided service list : 2
+2012-04-21 21:52:38 -0500 [memcached] Demand recording is 1 requests of 9 bytes in average, status message: Multitenancy manager: Obtained physical service for Llave as physserver = memcached_1

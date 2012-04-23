@@ -1,0 +1,60 @@
+TO DO LIST CODIGO
+
+x Implementar llamados SQL
+x Implementar las validaciones ping
+x Implementar los for y while correctamente
+x Implementar llenado del objeto del policy
+x Quitar todos los //
+x Implementar notifyobservers corectamente
+x Manejar correctamente lo del conteo de requests, tamaño de requests y conteo de capacidad
+x Que el tenantkey lo calcule el logicalservice, no el cliente. el cliente solo pase el tenantid
+x El logical service deberia de validar que el tenant sea valido consultando la tabla Tenants
+x Implementar capa dbaccessor como strategy
+x Codigo de tumbada fisica de servicio  (simulado)
+x Codigo de levantada fisica de servicio (simulado)
+x Asegurar se usan todos los valores del policy file en los algoritmos
+x Cambiar todas las variables y parametros a que sean lowercase, y los classnames y constantes a uppercase
+x Hacer los gem install necesarios (parseconfig, sqlite3, mysql, soap4r, logger, uri, dalli)
+x Hacer el insert en la tabla physicalservices cuando se crea un nuevo physical service (en el create)
+x Hacer el update correspondiente a la tabla physicalservices para actualizar capacidad utilizada y validar si la capacidad es suficiente
+x Hacer el delete de la tabla physicalservices cuando se borra un physical service (stop_service)
+x Corregir los defectos marcados con rojo en el documento Word
+x Hacer el insert en la tabla TenantLogicalServices cuando el cliente se autentifica
+x Probar todo con los servicios stub, no distribuidos
+x Adaptar las clases para que funcionen standalone (que el circle se inicialice de la tabla physicalservices)
+x Hacer que la tabla de Tenants sea en si misma un objeto para prepararlo para que obtenga los Tenants de otra parte (el LDAP del PaaS tipicamente)
+x Integrar la clase Logger.rb para registrar un log generico de todo el sistema, ademas de los observers: http://www.ruby-doc.org/stdlib-1.9.3/libdoc/logger/rdoc/Logger.html
+x Agregar funcionalidad de verbose para subir o bajar el detalle de los logs
+x Crear un cliente que ejecute llamadas random al servicio, con llaves primarias simuladas... Apoyado en http://stackoverflow.com/questions/88311/how-best-to-generate-a-random-string-in-ruby
+x Hacer corridas experimentales variando el numero de tenants y el numero de physical servers para demostrar multitenancy y elasticidad
+x Cambiar de base de datos a otra que soporte lock... SQLITE no soporta bien la concurrencia porque se bloquea todo el archivo
+http://www.kitebird.com/articles/ruby-mysql.html
+x En el physicalservice.rb poner la logica para conectarse al URI y levantar los servicios (o accesarlos fisicamente) 
+Ruby-MemCache
+x Parseo de URIs: http://www.ruby-doc.org/stdlib-1.9.3/libdoc/uri/rdoc/URI.html
+x Incluir en el archivo de configuracion los parametros para levantar el webservice de cada componente
+x Hacer guia de instalacion
+x Hacer guia de configuracion a un servicio custom
+x Adecuar guia de deploy en cloudfoundry
+x Subir todo el codigo a Github
+x Actualizar documento de psp design
+xx Convertir los llamados al EM, SB y physical service a llamados web service (O SEA, VOLVER LA APP DISTRIBUIDA)
+- Implementar links cloudfoundry... la app que se sube a CF debe de adaptarse solita al puerto y host donde corre el servicio a invocar
+http://blog.cloudfoundry.com/post/13481010778/using-cloud-foundry-services-with-ruby-part-2-run-time-support-for-ruby-applications
+
+
+
+IF TIME PERMITS
+- Frontend sencillo para catalogos de proveedores, logical services y tenants  https://github.com/gregbell/active_admin
+- Soportar database connection pooling para que no se atasque el servidor de BD cuando hay muchos tenants
+- Hacer un generador de codigo que lea un XML de definicion de servicio y produzca el codigo Ruby de su MEW (o algo similar que permita
+generar ese codigo via parametrizacion)
+- Hacer mas sencillo y transparente el manejo de la clase Tenant, para que sea esa la que revise el asunto del PaaS particular y tenga
+el codigo propio de cloudfoundry o del Paas que se trate (AHORITA ES UN ROLLO HACER ESO)
+- (si aplica) Adaptar el logical service para que sea un reverse proxy balanceador de carga basado en https://github.com/igrigorik/em-proxy/blob/master/examples/balancing.rb
+- Organizar el codigo en Modules, aislando los que se deben customizar
+- Separar en un Module el codigo de los observers que se usa en varios lugares
+- Montar el proyecto en una VM de JRuby
+- Hacer un clientito en otro lenguaje, quiza Java
+- Hacer un ejercicio de cómo reutilizaría este prototipo para otro servicio, indicando qué lineas cambiaría para hacerlo funcionar
+
