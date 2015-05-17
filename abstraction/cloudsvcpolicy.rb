@@ -21,7 +21,7 @@ class CloudSvcPolicy
 	# etc.	
 	
 		begin
-			@cloud_config = ParseConfig.new('C:\Users\Arturo\Dropbox\movable files\tesis\new thesis\3. experiments\mew\abstraction\cloudpolicy.conf')
+			@cloud_config = ParseConfig.new('/Users/aequihua/mew-prototype/abstraction/cloudpolicy.conf')
 		rescue Errno::ENOENT 
 			puts "The config file you specified was not found"
 			exit

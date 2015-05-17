@@ -1,5 +1,5 @@
 require_relative '../data/dbaccessor'
-require 'uri'
+require 'addressable/uri'
 require 'dalli'
 
 class PhysicalService

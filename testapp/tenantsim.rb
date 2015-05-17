@@ -7,7 +7,7 @@
 # driver.add_method('mget', 'tenantID', 'primaryKey')  
 
 require '../abstraction/logicalservice'
-require 'active_support/secure_random'
+require 'active_support'
 
 class TenantSimulator
 	attr_accessor :tenantID, :service
@@ -22,7 +22,7 @@ class TenantSimulator
 	end
 	
 	def generate_pkey
-		return ActiveSupport::SecureRandom.base64(16)
+		return SecureRandom.base64(16)
 	end
 
 	def run_test(numbertimes, baserequests, basewaiting)

@@ -1,4 +1,4 @@
-require_relative '..\abstraction\cloudsvcpolicy'
+require_relative '../abstraction/cloudsvcpolicy'
 
 class DBAccessStrategy
   def getrows(query)

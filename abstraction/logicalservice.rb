@@ -1,5 +1,7 @@
 require_relative '../data/dbaccessor'
 require_relative './multitenancymgr'
+require 'rubygems'
+gem 'soap4r'
 require 'soap/rpc/standaloneServer'  
 require_relative './tenant'
 
